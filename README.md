@@ -1,12 +1,13 @@
-## What's fruby
+## fruby
 
-fruby is a French version of mruby.
+fruby est un langage de programmation en Français.
+Il est entièrement basé sur [mruby](http://www.mruby.org/).
 
-## Rationale
+## Sa raison d'être
 
-There's none. It was just fun to do it :-)
+Aider les tout petits à appréhender la programmation. Même s'il s'avère essentiel de connaître l'anglais pour pouvoir faire une carrière en tant que développeur, ce langage permet de rendre accessible les concepts algorithmiques.
 
-## Example
+## Exemple
 
     renomme :affiche :puts
     
@@ -36,14 +37,14 @@ There's none. It was just fun to do it :-)
       affiche Français.new(humeur).réponse
     fin
 
-## How to run fruby
+## Comment exécuter fruby
 
     $ ./fruby.sh
 
-## License
+## Licence
 
-fruby has the same license as mruby (MIT).
+fruby hérite de fait de la licence de mruby : la licence MIT.
 
-## Authors
+## Auteurs
 
 * Franck Verrot - franck@verrot.fr
