@@ -66,7 +66,7 @@ Pour cela, voici les étapes nécessaires:
 
 ## Comment exécuter fruby
 
-    ./bin/fruby fruby_test.rb
+    ./fruby fruby_test.rb
 
 ## Licence
 
