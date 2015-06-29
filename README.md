@@ -39,9 +39,34 @@ pour i dans 1...10
 fin
 ```
 
+## Mise à jour des dépendences
+
+Seul `mruby` est nécessaire pour compiler `fruby`. `fruby` est un script qui
+permet de transformer le code source de `mruby` avant la compilation.
+
+Pour cela, voici les étapes nécessaires:
+
+1. Cloner `fruby`
+
+    git clone git@github.com:franckverrot/fruby.git
+
+2. Ajouter `mruby` en `remote` git
+
+    cd fruby
+    git remote add mruby git@github.com:mruby/mruby.git
+
+3. `rebase` le dépôt à partir de `mruby`
+
+    git fetch mruby
+    git rebase mruby/master
+
+4. Lancer le script de mise à jour
+
+    ./fruby.sh
+
 ## Comment exécuter fruby
 
-    $ ./fruby.sh
+    ./bin/fruby fruby_test.rb
 
 ## Licence
 
