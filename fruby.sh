@@ -59,4 +59,4 @@ done
 
 
 make
-./bin/mruby fruby_test.rb
+mv bin/mruby fruby
